@@ -1,0 +1,6 @@
+a. Tạo 3 file: file1, file2, file3 => Tạo file1, file2, file3 là ở vùng Working directory. 3 file này chỉ mới được tạo, git chưa theo dõi gì cả.
+b. Chạy lệnh: git init => Git khởi tạo repo (tạo ra thư mục .git) ở folder, chưa có commit nào (chỉ khởi tạo 1 lần)
+c. Chạy lệnh: git commit -m”init project” => Không có file nào được add, nên commit này KHÔNG chứa file nào.
+d. Chạy lệnh: git add file1 => File1 được add vào vùng staging, chuẩn bị commit.
+e. Chạy lệnh: git commit -m”add file1” => File1 đã được commit vào repo => giờ thì repo đã có 1 commit chứa file1
+f. Chạy lệnh: git commit -m”add file” => Không có file mới nào được add, nên commit này KHÔNG chứa file nào.

@@ -1,0 +1,4 @@
+git init là : Khởi tạo một repo Git mới trong folder hiện tại. (Chỉ khởi tạo 1 lần)
+git add <file_name> là : Thêm một <file_name> cụ thể vào vùng staging, chuẩn bị commit
+git add . là : Thêm tất cả các file mới hoặc đã thay đổi trong thư mục hiện tại (và các thư mục clone) vào vùng staging
+git commit -m "message" là : Lưu lại các thay đổi đang ở vùng staging với một tin nhắn mô tả .
