@@ -1,0 +1,17 @@
+a. Tạo 3 file: file1, file2, file3 => Tạo file1, file2, file3 là ở vùng Working directory. 3 file này chỉ mới được tạo, git chưa theo dõi gì cả.
+
+b. Chạy lệnh: git init => Git khởi tạo repo (tạo ra thư mục .git) ở folder, chưa có commit nào (chỉ khởi tạo 1 lần)
+
+c. Chạy lệnh: git commit -m”init project” => Không có file nào được add, nên commit này KHÔNG chứa file nào.
+
+d. Chạy lệnh: git add file1 => File1 được add vào vùng staging, chuẩn bị commit.
+
+e. Chạy lệnh: git commit -m”add file” => Không có file mới nào được add, nên commit này KHÔNG chứa file nào.
+
+e. Chạy lệnh: git add . => Add tất cả các file (file1, file2, file3) vào vùng staging, chuẩn bị commit 
+
+f. Chạy lệnh: git restore --staged file2 => revert file 2 từ staging về working directory
+
+g. Chạy lệnh: git commit -m”add all files” => là lệnh dùng để lưu tất cả file đang được stage vào repository & kèm theo một lời nhắn diễn tả commit đó.
+
+i. Chạy lệnh: git reset HEAD~1 => là lệnh dùng để revert lại commit gần nhất- git commit --amend -m”message” từ Repository > working directory

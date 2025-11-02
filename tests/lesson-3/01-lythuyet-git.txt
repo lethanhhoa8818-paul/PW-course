@@ -1,0 +1,4 @@
+git commit --amend : là lệnh dùng để chỉnh sửa commit cuối cùng (commit gần nhất) mà mình vừa tạo.
+git commit --amend -m”<message>” : là lệnh dùng để đổi tên file từ Repository > Working directory thì dùng câu lệnh để revert lại commit.
+git restore --staged <file> : là lệnh dùng để add 1 số file và giữ lại 1 số file từ Staging Area > Working directory thì dùng câu lệnh để revert ko cho lên staging.
+git reset HEAD~1 : là lệnh dùng để revert lại commit file Repository > working directory (un-commit)
